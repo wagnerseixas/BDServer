@@ -2,7 +2,7 @@
 #require 'selenium-webdriver'
 
 
-require 'capybara'
+#require 'capybara'
 require 'capybara/dsl'
 require 'capybara/rspec/matchers'
 require 'selenium-webdriver'
