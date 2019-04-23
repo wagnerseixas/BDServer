@@ -50,4 +50,16 @@ Procedimento para criaçäo de projeto no VSCode
 Observação : As pastas e arquivos do projeto DBServerTeste já estäo estruturadas no Gitrub
 -> https://github.com/wagnerseixas/BDServer
 
+Ordem de execuçäo dos arquivos(tags) na pasta : [SPECS] com CMD
+1. Entrar na pasta DBServer via CMD
+2. Executar: Cucumber -t@url_loja # acessar a url da loja
+3. Executar: Cucumber -t@escolherproduto # seleciona um produto e será aberto um popup 
+4. Executar: Cucumber -t@checkout # clicar na opçäo para prosseguir 
+5. Executar: Cucumber -t@cadastraremail # Cadastrar um email válido
+6. Executar: Cucumber -t@cadastro # Preencher o formulário(campos obrigatórios) e seguirá para as telas: Address -> Shipping -> payment (confirmando o pedido)
+
+
+
+
+
 
