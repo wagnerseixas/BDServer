@@ -1,35 +1,53 @@
-# BDServer
-#Prova de automaçäo
+Instalaçäo no Windows 
 
-Segue desafio:
+Ruby
+	https://rubyinstaller.org/downloads/
 
-A tecnologia (Java, C#, Python, Ruby e etc.) e o framework (Selenium, Cucumber,  CodedUI e etc.) – de preferência utilizar Selenium - para automação de testes são de escolha do candidato.
-Lembrando que o objetivo da prova é que você possa expor o seu conhecimento de automação de testes, conceitos como arquitetura de automação de testes, orientação a objetos, design patterns e clean code serão avaliados. Resolva o desafio da forma mais completa possível e utilizando tudo que tens de conhecimentos, não precisas ter pressa.
+Bundle
+	GEM INSTALL BUNDLER
 
-Caso de teste: realizar uma compra com sucesso.
+Cucumber
+	GEM INSTALL CUCUMBER
 
-1.          Acessar o site: www.automationpractice.com.
+Rspec
+	GEM INSTALL RSPEC
 
-2.          Escolha um produto qualquer na loja.
+Capybara
+	GEM INSTALL CAPYBARA
 
-3.          Adicione o produto escolhido ao carrinho.
+Instalando o VSCode
+	https://code.visualstudio.com/download
 
-4.          Prossiga para o checkout.
 
-5.          Valide se o produto foi corretamente adicionado ao carrinho e prossiga caso esteja tudo certo.
+Instalando o que foi definido no arquivo no CMD
 
-6.          Realize o cadastro do cliente preenchendo todos os campos obrigatórios dos formulários.
+	source 'https://rubygems.org/'
+	gem "cucumber"
+	gem "rspec"
+	gem "capybara"
+	gem "selenium-webdriver"
+	
+	Bundle Install
+	
 
-7.          Valide se o endereço está correto e prossiga.
 
-8.          Aceite os termos de serviço e prossiga.
+Instalar os Plugins no VSCode
+• Instalar o Ruby
+• Instalar o vscode Icons
+• Instalar o Gherkin Indent
+• Instalar o Snippets and Syntax Highlight for Gherkin (Cucumber)
 
-9.          Valide o valor total da compra.
 
-10.      Selecione um método de pagamento e prossiga.
+Procedimento para criaçäo de projeto no VSCode
 
-11.      Confirme a compra e valide se foi finalizada com sucesso.
+1. Criar uma pasta chamada DBServerTeste
+2. Executar o comando via CMD na pasta criada acima : cucumber --init
+3. Criar uma pasta SPECS dentro da pasta FEATURES
+4. No VSCode Menu File - "Add folder to workspace.." >> DBServerTeste
+5. Criar o arquivo gemfile na  pasta raiz DBServerTeste
+6. Executar bundle install no CMD
 
-Obs.1: a entrega deve ser feita via repositório de versionamento Git.
+Observação : As pastas e arquivos do projeto DBServerTeste já estäo estruturadas no Gitrub
+-> https://github.com/wagnerseixas/BDServer
 
-Obs.2: faça um read-me com instruções de configuração e execução do seu script.”
+
