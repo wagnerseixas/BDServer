@@ -56,7 +56,9 @@ Ordem de execuçäo dos arquivos(tags) na pasta : [SPECS] com CMD
 3. Executar: Cucumber -t@escolherproduto # seleciona um produto e será aberto um popup 
 4. Executar: Cucumber -t@checkout # clicar na opçäo para prosseguir 
 5. Executar: Cucumber -t@cadastraremail # Cadastrar um email válido
+	#deve ser trocado o email a cada execuçäo no arquivo signin.rb
 6. Executar: Cucumber -t@cadastro # Preencher o formulário(campos obrigatórios) e seguirá para as telas: Address -> Shipping -> payment (confirmando o pedido)
+	#deve ser trocado o email a cada execuçäo no arquivo cadastrar_campos_obrigatorios.rb(mesmo do item 5)
 
 
 
